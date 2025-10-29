@@ -4,20 +4,9 @@ html, body {
     margin: 0;
 }
 
-/* Gradient på hele siden (EN gang) */
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #F19C05, #A46403, #67430F, #2B231C);
-    background-attachment: fixed; /* gør gradienten rolig ved scroll */
+    background-image: linear-gradient(to bottom, #A7A09D, #746458, #46403E);
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
-/* Sørg for at alle sektioner IKKE har deres egen baggrund */
-section, header, nav, footer {
-    background: transparent !important;
-}}}
-
-
-
-
-
