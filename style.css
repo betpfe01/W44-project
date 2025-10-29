@@ -1,3 +1,4 @@
+
 html, body {
     height: 100%;
     margin: 0;
@@ -14,4 +15,9 @@ body {
 /* Sørg for at alle sektioner IKKE har deres egen baggrund */
 section, header, nav, footer {
     background: transparent !important;
-}
+}}}
+
+
+
+
+
