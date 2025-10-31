@@ -221,10 +221,14 @@ button {
   margin-bottom: 20px;
 }
  
-.main-p {
+#main-p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   font-family: "Unna", serif;
   font-weight: 400;
   font-size: 20px;
+  max-width: 1280px;
 }
  
 .main-produkter {
@@ -256,7 +260,7 @@ button {
   margin-bottom: 15px;
 }
  
-.button {
+.main-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +303,8 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1280px;
   background-color: #A45721 !important;
   height: 70px;
   font-size: 18px;
@@ -537,36 +542,8 @@ button {
  
 @media (max-width: 768px) {
  
-  .main-sortiment {
-    padding: 40px 20px;
-  }
+
  
-  .main-sortiment-h2 {
-    font-size: 24px;
-  }
- 
-  .main-p {
-    font-size: 18px;
-  }
- 
-  .main-h3 {
-    font-size: 22px;
-  }
- 
-  .main-button {
-    width: 120px;
-    font-size: 16px;
-  }
- 
-  .main-produkter {
-   gap: 20px;  
-}
- 
-  .main-produkt {
-   flex: 1 1 calc(100% - 20px); 
-   max-width: 100px;
-   
-  }
 
   .alignment {
     display: flex;
@@ -584,6 +561,46 @@ button {
 
 
 @media (max-width: 768px) {
+
+  .main-sortiment {
+    padding: 40px 20px;
+    max-width: autopx;
+  }
+ 
+  .main-sortiment-h2 {
+    font-size: 24px;
+  }
+ 
+  #main-p {
+ 
+    font-size: 16px;
+    max-width: 400px;
+  }
+ 
+ 
+  .main-h3 {
+    font-size: 22px;
+  }
+ 
+  .main-button {
+    width: 120px;
+    font-size: 16px;
+  }
+ 
+  .main-produkter {
+    gap: 10px;
+    max-width: 350px;
+  }
+ 
+  .main-produkt {
+    flex: 1 1 calc(60%% - 20px);
+  }
+ 
+  .main-produkt-img {
+    width: 70%;
+  }
+}
+
 .nav-links {
     display: none;
 }
