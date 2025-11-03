@@ -18,7 +18,7 @@ section, header, nav, footer {
 }
 
 header {
-    height: 83px;
+    height: 100px;
     width: 100%;
     background-image: url("wood-83 1.png") !important;
     display: flex;
@@ -52,7 +52,7 @@ header nav ul img {
 
 
 .nav-links li a {
-    text-decoration: none;
+    text-decoration:line-through;
     color: white;
     font-size: 24px;
     font-style: ;
@@ -108,7 +108,7 @@ header nav ul img {
 }
 
 .aabningstid {
-    color: greenyellow;
+    color: white;
     background-color: #A45721 !important;
     box-shadow: 0 5px 20px 20px #625d5b;
     height: 70px;
