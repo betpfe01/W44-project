@@ -599,7 +599,7 @@ button {
   .main-produkt-img {
     width: 70%;
   }
-}
+
 
 .nav-links {
     display: none;
@@ -609,8 +609,6 @@ button {
 }
 
 
-
-}
 
 @media (min-width: 768px) {
 #Logomobile {
