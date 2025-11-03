@@ -108,15 +108,15 @@ header nav ul img {
 }
 
 .aabningstid {
-    color: greenyellow;
-    background-color: #A45721 !important;
+    color: rgb(197, 97, 97);
+    background-color: #eda36e !important;
     box-shadow: 0 5px 20px 20px #625d5b;
     height: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 28px;
     padding: 40px 20px ;
     text-align: center;
 }
@@ -433,7 +433,12 @@ button {
  
 }
  
-#SKÅL{ white-space: pre; font-style: italic; text-decoration: underline;}
+#SKÅL{ white-space: pre;
+   font-style: italic; 
+   text-decoration: underline; 
+   text-decoration: dotted;
+    color: #8bf0d5;
+     text-shadow: #333;} 
  
 .billede-historie, .billede-øl-smagning {
     background-repeat: no-repeat !important;
