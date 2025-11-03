@@ -32,6 +32,7 @@ nav {
     width: 100%;
     align-items: center;
     padding: 40px;
+    gap: 40px;
 }
 
 header nav ul img {
@@ -45,17 +46,20 @@ header nav ul img {
 .nav-links{
     display: flex;
     list-style: none;
-    gap: 60px;
+    gap: 70px;
     padding: 0;
     margin: 0;
 }
 
 
 .nav-links li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: wavy;
+    color: gray;
     font-size: 24px;
     font-style: ;
+    font-style: italic;
+    text-shadow: #000;
+    
 
 }
 
