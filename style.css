@@ -63,7 +63,7 @@ header nav ul img {
     background-image: url("wood-244 1.png") !important ;
     height: 244px;
     width: 100%;
-    color: orange;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -109,7 +109,7 @@ header nav ul img {
 
 .aabningstid {
     color: black;
-    background-color: #A45721 !important;
+    background-color: #ffffff !important;
     box-shadow: 0 5px 20px 20px #625d5b;
     height: 70px;
     display: flex;
