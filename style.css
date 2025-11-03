@@ -433,7 +433,12 @@ button {
  
 }
  
-#SKÅL{ white-space: pre; font-style: italic; text-decoration: underline;}
+#SKÅL{ white-space: pre;
+   font-style: italic; 
+   text-decoration: underline; 
+   text-decoration: dotted;
+    color: #8bf0d5;
+     text-shadow: #333;} 
  
 .billede-historie, .billede-øl-smagning {
     background-repeat: no-repeat !important;
